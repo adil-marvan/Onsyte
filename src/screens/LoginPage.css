@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    width: 95%;
+    height: 90vh; 
+    justify-content: center;
+    align-items: stretch; 
+    overflow: hidden;
+    border-radius: 32px; 
+    background: #fff; 
+}
+
+.login-left {
+    width: 50%;
+    height: 91%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-radius: 32px;
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 0;
+}
+
+.welcome-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.welcome-text h1 {
+    font-weight: 700;
+    font-size: 46px;
+    color: #333;
+}
+
+.welcome-text p {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 8px 24px 16px 24px;
+    color: #666;
+}
+
+.input-container {
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+}
+
+.input-container label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+    
+    
+}
+
+.login-right {
+    
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    border-radius: 32;
+   
+    
+}
+
+.login-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.forgot-password {
+    width: auto;
+    padding-top: 6px;
+    padding-left: 525px;
+    text-align: center;
+    
+}
+.forgot-password a{
+    color: #333;
+}
+.login{
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+
+
+ 
+
+
+

@@ -1,0 +1,42 @@
+ .nav-items{
+        display: flex;
+        /* align-items: center; */
+        /* justify-items: center; */
+        background-color: #FFF;
+        justify-content:flex-end;
+        height: 50px;
+        padding-left: 146px;
+        border-right: 1px solid #fff;
+        transition: 0.3s ease-in-out;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 20px;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+
+    }
+    .bell{
+
+        width: 37px;
+        height: 30px;
+        padding-left: 8px;
+        padding-top: 11px;
+
+    }
+    .message{
+        width: 48px;
+        height: 30px;
+        padding-left: 12px;
+        padding-top: 0px;
+        border-radius: 1.5px;
+        border: 1.3px;
+
+    }
+    .oval{
+        width: 50px;
+        height: 33px;
+        padding-top: 0px;
+        padding-left: 12px;
+    }
+    
+

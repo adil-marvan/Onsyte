@@ -1,0 +1,29 @@
+.table-container {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .status {
+    color: green;
+  }
+  
+  .alarm {
+    color: red;
+  }
+  
+  .critical {
+    background: #ffcccc;
+  }

@@ -1,0 +1,22 @@
+.dashboard {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .stat-box {
+    flex: 1;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+  }
+  
+  .total { background: blue; }
+  .online { background: green; }
+  .alarm { background: red; }
+  .offline { background: orange; }

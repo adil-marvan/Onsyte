@@ -11,15 +11,32 @@
     font-size: 12px;
     padding: 5px 10px;
   }
+  .extra-small{
+    width: 157px;
+    height: 47px;
+    border-radius: 6px;
+    padding:10px 10px ;
+  }
   
   .medium {
-    font-size: 16px;
-    padding: 10px 20px;
+    width: 142px;
+    height: 52px;
+    border-radius: 6px;
+    padding-top: 9px;
+    padding-right: 14px;
+    padding-bottom: 11px;
+    padding-left: 14px;
+    gap: 10px;
   }
   
   .large {
+    width: 194px;
+    height: 44px;
+    border-radius: 6px;
+    padding: 8px 12px 8px 12px;
     font-size: 20px;
     padding: 15px 25px;
+    
   }
   .extra-large{
      
@@ -30,4 +47,5 @@
     border-radius: 6px;
     
   }
+
   

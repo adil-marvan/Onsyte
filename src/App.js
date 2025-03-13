@@ -1,7 +1,14 @@
 import React from 'react'
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom'
 import LoginPage from './screens/LoginPage'
-import Dashboard from './SecondPage/Dasboard';  
+import Dashboard from './SecondPage/Dasboard'; 
+import  StationStatus from "./ThirPage/StationStatus"
+import AlarmPage from './FourthPage/AlarmPage';
+import HistoryPage from './FifthPage.jsx/HistoryPage/HistoryPage';
+import AdminUser from './SixthPage.jsx/AdminUser';
+import StationPage from './SixthPage.jsx/StationPage/StationPage';
+
+import Test from './Test';
 
 //import Side from "./Components/side-bar/Side"
 function App() {
@@ -12,7 +19,13 @@ function App() {
          {/* <NavBar /> */}
          <Route index  path="/" element={<LoginPage />} />
          <Route path="/Dashboard" element={<Dashboard />}/>
+         <Route path="/StationStatus" element={<StationStatus/>}/>
+         <Route path="/AlarmPage" element={<AlarmPage/>}/>
+         <Route path ="/HistoryPage" element={<HistoryPage/>}/>
+         <Route path='/AdminUser' element={<AdminUser/>}/>
+         <Route path='/StationPage' element={<StationPage/>}/>
         
+        <Route path="/test" element={<Test/>}/>
        </Routes>
      </Router>
     

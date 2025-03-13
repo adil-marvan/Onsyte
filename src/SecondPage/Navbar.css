@@ -1,12 +1,12 @@
- .nav-items{
+.nav-items{
         display: flex;
         /* align-items: center; */
         /* justify-items: center; */
-        background-color: #FFF;
+        background-color:#ffffff;
         justify-content:flex-end;
         height: 50px;
         padding-left: 146px;
-        border-right: 1px solid #fff;
+        border-bottom: 1px solid #988f8f;
         transition: 0.3s ease-in-out;
         display: flex;
         flex-direction: row;

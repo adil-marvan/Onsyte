@@ -1,0 +1,49 @@
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 243px;
+    height: 126px;
+    padding-top: 22px;
+    padding-left: 175px;
+    padding-right: 246px;
+    border-radius: 6px;
+    gap:8px;
+    
+    
+}
+.card {
+    
+    
+    
+  }
+  
+  .header {
+   width: 27px;
+   height: 52px;
+   padding: 11px;
+  }
+  
+  .icon {
+    width: 27px;
+    height: 33px;
+  }
+  .content{
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0px;
+    width: 232px;
+    height: 29px;
+    line-height: 1px;
+    padding: 5px;
+    
+  }
+  
+
+  
+  
+  
+ 
+  
+ 

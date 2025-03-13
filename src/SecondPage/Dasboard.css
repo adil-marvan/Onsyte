@@ -20,3 +20,7 @@
   .online { background: green; }
   .alarm { background: red; }
   .offline { background: orange; }
+.main{
+  display: flex;
+  justify-content: space-between;
+}

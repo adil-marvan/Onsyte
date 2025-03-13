@@ -1,0 +1,21 @@
+.Box1{
+  width: 286px;
+  height: 12px;
+  padding-top: 184px;
+  border-radius: 6px;
+  gap: 8px;
+  background-color: #1c47e3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Box2{
+    width: 286px;
+    height: 12px;
+    padding-top: 184px;
+    border-radius: 6px;
+    gap: 8px;
+    background-color: #c5e31c;
+    display: flex;
+    justify-content: space-between;
+  }

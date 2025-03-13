@@ -1,0 +1,192 @@
+.user-list-container {
+    width: 1500px;
+    height: 348px;
+    padding: 12px 150px ;
+    border-radius: 12px;
+    border: 1px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    }
+    
+    .table-header {
+        display: flex;
+        justify-content: space-between;
+        width:80% ;
+        height: 92px;
+        align-items: center;
+        padding: 10px 20px;
+        border-bottom: 1px solid #E0E0E0;
+    }
+    
+    .search-add-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .search-input {
+        width: 250px;
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+    
+    .add-user-button {
+        background-color: #007bff;
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .user-table {
+        width: 80%;
+        padding: 12px 24px 24px 12px;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+    
+    .user-table thead {
+        background: #F8F9FA;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    .user-table th, .user-table td {
+        padding: 12px;
+        border-bottom: 1px solid #E0E0E0;
+    }
+    
+    .bold-text {
+        font-weight: bold;
+    }
+    
+    .icon {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .action-icon {
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+    
+    .pagination {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        margin-top: 10px;
+        border-top: 1px solid #E0E0E0;
+    }
+    
+    .pagination-button {
+        background: white;
+        border: 1px solid #ccc;
+        padding: 6px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    
+    .page-numbers {
+        font-size: 14px;
+        color: #6c757d;
+    }
+
+
+.station-header {
+    display: flex;
+    justify-content: space-between;
+    width:80% ;
+    height: 92px;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.search-add-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-input {
+    width: 250px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.add-user-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.user-table {
+    width: 80%;
+    padding: 12px 24px 24px 12px;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.user-table thead {
+    background: #F8F9FA;
+    font-weight: bold;
+    text-align: left;
+}
+
+.user-table th, .user-table td {
+    padding: 12px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.icon {
+    display: flex;
+    gap: 10px;
+}
+
+.action-icon {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-top: 1px solid #E0E0E0;
+}
+
+.pagination-button {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.page-numbers {
+    font-size: 14px;
+    color: #6c757d;
+}

@@ -1,29 +1,154 @@
 .table-container {
-    background: white;
-    padding: 15px;
-    border-radius: 5px;
-    margin-top: 20px;
-  }
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding-left: 10%;
+}
+
+.table-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1304px;
+  height: 40px;
+  background: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0; /* Light gray border */
   
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
+}
+.table-header {
   
-  th, td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    text-align: left;
-  }
+  size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  align-items: center;
   
-  .status {
-    color: green;
+}
+
+
+.table-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: #1e1e1e;
+}
+
+.table-header p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #6b46c1; 
+  margin-left: 6px;
+  text-decoration: underline;
+  cursor: pointer; 
+ 
+}
+
+.search-input {
+  width: 207px;
+  height: 17px;
+  border-radius: 6px;
+  padding: 4px 12px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  background-color: #f9f9f9;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+  background-color: #ffffff;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.filter:hover {
+  background-color: #f3f4f6;
+}
+
+.filter img {
+  width: 14px;
+  height: 14px;
+}
+
+.filter p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  color: #374151;
+}
+
+
+.table-wrapper {
+  width: 88%;
+  overflow-x: auto;
+  margin-top: 10px;
+}
+
+.station-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.station-table thead {
+  background-color: #fff;
+  text-align: left;
+}
+.station-table thead tr{
+  color: black;
+}
+
+.station-table th {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px;
+  color: #1e1e1e;
+  border-bottom: 2px solid #151617;
+}
+
+.station-table td {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12px;
+  color: #111010;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+
+.station-table tbody tr:nth-child(even) {
+  background-color: #d5d7da;
+}
+
+
+.alarm-critical {
+  color: rgb(211, 8, 8);
+  font-weight: bold;
+}
+
+.connection {
+}
+
+
+
+  .connection::before {
+    content: "●"; 
+    color: #10b981; /* Green dot */
+    font-size: 12px;
+    margin-right: 4px;
   }
-  
-  .alarm {
-    color: red;
-  }
-  
-  .critical {
-    background: #ffcccc;
-  }
+
+
+
+
+

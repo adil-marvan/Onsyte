@@ -1,0 +1,151 @@
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Search Input */
+.search-input {
+    padding: 10px;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* Date Input */
+.date-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f0f0f0;
+    font-size: 14px;
+    width: 200px;
+    cursor: not-allowed;
+}
+
+/* Radio Button Group */
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Button Group */
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.primary {
+    background-color: #007bff;
+    color: white;
+}
+
+button.secondary {
+    background-color: #ddd;
+    color: black;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Table */
+.stations-table {
+    margin-top: 15px;
+    border-radius: 8px;
+    height: 319px;
+    overflow: hidden;
+    width: 1080px;
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table Header */
+th {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Row Styling */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Radio Button */
+input[type="radio"] {
+    accent-color: #007bff;
+    width: 16px;
+    height: 16px;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.pagination button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pagination button:hover {
+    background-color: #007bff;
+    color: white;
+}
+

@@ -1,0 +1,85 @@
+/* .station-container{
+   
+   height: 100%;
+   width: 100%;
+} */
+
+.station-container-id {
+  display: flex;
+  justify-content: space-between; /* Ensures CardRight is on the right */
+  align-items: flex-start;
+  gap: 20px; /* Adds some space between the cards */
+  padding: 20px;
+  overflow-y: auto;
+  height: 100vh ; 
+}
+
+.station-container > * {
+  flex: 1; /* Ensures both components take up equal space */
+}
+
+  .details-container {
+    width: 38%;
+    margin: auto;
+    padding: 14px 671px 2px 0px;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .details-title {
+    color: #3b82f6;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .details-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  
+  .field-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .field-label {
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin-bottom: 4px;
+  }
+  
+  .field-input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .field-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    background: #f9fafb;
+    font-size: 1rem;
+  }
+  
+  .edit-button {
+    padding: 6px 12px;
+    border: 1px solid #3b82f6;
+    border-radius: 4px;
+    background: white;
+    color: #3b82f6;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background: #3b82f6;
+    color: white;
+  }
+  
+  .station-container > * {
+    flex: 1; /* Ensures both components take up equal space */
+  }

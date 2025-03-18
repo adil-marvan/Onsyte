@@ -1,0 +1,86 @@
+.device-operations-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .device-section, .operations-section {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 48%;
+  }
+  
+  .device-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .device-button {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auto-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .status-icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .status {
+    font-size: 14px;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .inactive {
+    color: gray;
+  }
+  
+  .operation-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .operation-buttons button {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pause {
+    background-color: #a0c4ff;
+  }
+  
+  .abort {
+    background-color: #ffadad;
+  }
+  
+  .reset {
+    background-color: #b9fbc0;
+  }
+  
+  .skip {
+    background-color: #ffe599;
+  }
+  

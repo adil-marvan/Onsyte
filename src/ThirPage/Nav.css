@@ -42,7 +42,7 @@
   height: auto;
 }
 
-/* Aligning status container based on the logo */
+
 .status-container {
   display: flex;
   align-items: center;

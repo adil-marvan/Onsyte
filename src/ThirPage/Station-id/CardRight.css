@@ -1,0 +1,31 @@
+.station-status-container {
+    padding: 20px;
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .details-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .details-card h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .details-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .details-card li {
+    font-size: 14px;
+    color: #555;
+    padding: 5px 0;
+  }
+  

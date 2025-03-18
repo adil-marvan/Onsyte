@@ -14,6 +14,13 @@ function Nav() {
     navigate("/test"); // ✅ Now it correctly uses navigate
   };
 
+  const stationNavigate=()=>{
+    navigate ("/station-info");
+  }
+  const stationidNavigate=()=>{
+    navigate ("/station-id")
+  }
+
   return (
     <div className="station-container-x">
       <div className="nav-container-f">
@@ -68,9 +75,9 @@ function Nav() {
       {/* Navigation Tabs */}
       <div className="nav-tabs">
         <span className="active">Station Status</span>
-        <span>Station Id</span>
-        <span onClick={handleNavigate} style={{ cursor: "pointer" }}>Alarms</span>
-        <span>Station Info</span>
+        <span onClick={stationidNavigate}>Station Id</span>
+        <span onClick={handleNavigate}>Alarms</span>
+        <span onClick={stationNavigate}>Station Info</span>
       </div>
     </div>
   );

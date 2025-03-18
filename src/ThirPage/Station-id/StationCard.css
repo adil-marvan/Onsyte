@@ -1,0 +1,194 @@
+/* .dashboard-container {
+    padding: 20px;
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+    overflow-y: auto;
+    max-height: 100vh;
+
+  }
+  
+  .vessel-section {
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .vessel-section label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .vessel-select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .vessel-section button {
+    margin-left: 5px;
+  }
+  
+  
+  .detail-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+  }
+  
+  .details-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-card h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .details-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .details-card li {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+   */
+
+
+   /* General Styling */
+.dashboard-container-W {
+    padding: 7px 5px 3px 116px;
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+    /* overflow-y: auto; */
+    /* max-height: 100vh; */
+}
+
+/* Vessel Section */
+.vessel-section {
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.vessel-section label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.vessel-select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.vessel-section button {
+    margin-left: 5px;
+}
+
+/* Details Section */
+.detail-section {
+    display: grid;
+    grid-template-columns: 1fr ; /* Two columns layout */
+    width: 50%;
+    padding: 0px 2px 23px 5px;
+    gap: 20px;
+}
+
+/* Details Card */
+.details-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.details-card h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* List Styling */
+.details-card ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Spacing between rows */
+}
+
+/* Each row contains two fields */
+.field-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px; /* Space between two inputs */
+}
+
+/* Individual field styling */
+.details-card li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(50% - 7px); /* Ensures two fields per row */
+    padding: 8px;
+    font-size: 14px;
+    color: #555;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Input Field Styling */
+.details-card input {
+    width: 80px;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/* Button Styling */
+.details-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.details-card button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .detail-section {
+        grid-template-columns: 1fr; /* Switch to single column on smaller screens */
+    }
+    
+    .details-card li {
+        width: 100%; /* Stack fields in smaller screens */
+    }
+}

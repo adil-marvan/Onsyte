@@ -1,0 +1,97 @@
+.alarm-container {
+    border: 2px solid blue;
+    padding: 15px;
+    border-radius: 8px;
+    width: 82%;
+    margin: 11px auto;
+  }
+  
+  .alarm-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(3, 3, 3);
+  }
+  
+  .alarm-header h2 {
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .alarm-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .alarm-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+  }
+  
+  .critical {
+    background-color: #ffdddd;
+    border: 2px solid red;
+    color: red;
+  }
+  
+  .non-critical {
+    background-color: white;
+    border: 2px solid gray;
+    color: gray;
+  }
+  
+  .alarm-id {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .alarm-label {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  
+  .alarm-status {
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .critical .alarm-status {
+    background-color: red;
+    color: white;
+  }
+  
+  .non-critical .alarm-status {
+    background-color: lightyellow;
+    color: orange;
+  }
+  
+  .reset-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .reset-button:hover {
+    background-color: darkred;
+  }
+  

@@ -7,8 +7,11 @@ import AlarmPage from './FourthPage/AlarmPage';
 import HistoryPage from './FifthPage.jsx/HistoryPage/HistoryPage';
 import AdminUser from './SixthPage.jsx/AdminUser';
 import StationPage from './SixthPage.jsx/StationPage/StationPage';
+import StationInfo from "./ThirPage/Station-Info/StatioInfo"
+import StatationId from "./ThirPage/Station-id/SationId"
 
-import Test from './Test';
+import Test from '../src/ThirPage/Test';
+
 
 //import Side from "./Components/side-bar/Side"
 function App() {
@@ -24,8 +27,9 @@ function App() {
          <Route path ="/HistoryPage" element={<HistoryPage/>}/>
          <Route path='/AdminUser' element={<AdminUser/>}/>
          <Route path='/StationPage' element={<StationPage/>}/>
-        
         <Route path="/test" element={<Test/>}/>
+        <Route path="/station-info" element={<StationInfo/>}/>
+        <Route path="/station-id"   element={<StatationId/>}/>
        </Routes>
      </Router>
     

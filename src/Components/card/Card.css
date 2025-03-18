@@ -30,13 +30,13 @@
   }
   .content{
     font-weight: 700px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 29px;
     letter-spacing: 0px;
     width: 232px;
     height: 29px;
     line-height: 1px;
-    padding: 5px;
+    /* padding: 5px; */
     
   }
   

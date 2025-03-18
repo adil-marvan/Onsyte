@@ -55,7 +55,7 @@ const LoginPage = () => {
 
     return (
         <div className="login-page">
-            <div className="container">
+            <div className="container-login">
                 {/* Left Section */}
                 <div className="login-left">
                     <div className="logo">
